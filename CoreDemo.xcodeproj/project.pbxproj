@@ -24,7 +24,6 @@
 		CE67CC7221D5B70600311BD2 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7121D5B70600311BD2 /* TestController.swift */; };
 		CE67CC7E21D5BECA00311BD2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7521D5BECA00311BD2 /* UIColor+Extension.swift */; };
 		CE67CC7F21D5BECA00311BD2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7621D5BECA00311BD2 /* UIView+Extension.swift */; };
-		CE67CC8021D5BECA00311BD2 /* UIDevice+IsPhoneXAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7721D5BECA00311BD2 /* UIDevice+IsPhoneXAbove.swift */; };
 		CE67CC8121D5BECA00311BD2 /* UICell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7821D5BECA00311BD2 /* UICell+Extension.swift */; };
 		CE67CC8321D5BECA00311BD2 /* DispatchSourceTimer+DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7A21D5BECA00311BD2 /* DispatchSourceTimer+DispatchTimer.swift */; };
 		CE67CC8421D5BECA00311BD2 /* UIViewController+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7B21D5BECA00311BD2 /* UIViewController+TopViewController.swift */; };
@@ -76,7 +75,6 @@
 		CE67CC7121D5B70600311BD2 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		CE67CC7521D5BECA00311BD2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CE67CC7621D5BECA00311BD2 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		CE67CC7721D5BECA00311BD2 /* UIDevice+IsPhoneXAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+IsPhoneXAbove.swift"; sourceTree = "<group>"; };
 		CE67CC7821D5BECA00311BD2 /* UICell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICell+Extension.swift"; sourceTree = "<group>"; };
 		CE67CC7A21D5BECA00311BD2 /* DispatchSourceTimer+DispatchTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchSourceTimer+DispatchTimer.swift"; sourceTree = "<group>"; };
 		CE67CC7B21D5BECA00311BD2 /* UIViewController+TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopViewController.swift"; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 			children = (
 				CE67CC7521D5BECA00311BD2 /* UIColor+Extension.swift */,
 				CE67CC7621D5BECA00311BD2 /* UIView+Extension.swift */,
-				CE67CC7721D5BECA00311BD2 /* UIDevice+IsPhoneXAbove.swift */,
 				CE67CC7821D5BECA00311BD2 /* UICell+Extension.swift */,
 				CE67CC7A21D5BECA00311BD2 /* DispatchSourceTimer+DispatchTimer.swift */,
 				CE67CC7B21D5BECA00311BD2 /* UIViewController+TopViewController.swift */,
@@ -406,7 +403,6 @@
 			files = (
 				CE67CC7E21D5BECA00311BD2 /* UIColor+Extension.swift in Sources */,
 				CE20413321F1DDE0000DEBBD /* UIColor+HEX.swift in Sources */,
-				CE67CC8021D5BECA00311BD2 /* UIDevice+IsPhoneXAbove.swift in Sources */,
 				CE7FB90321F84D360020F5A2 /* Timer+Block.swift in Sources */,
 				CE99647821F59B1F0093BC92 /* UIView+Responder.swift in Sources */,
 				CE67CC8921D5D24500311BD2 /* TableViewController.swift in Sources */,
