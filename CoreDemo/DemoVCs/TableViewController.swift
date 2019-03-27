@@ -21,13 +21,15 @@ class TableViewController: UITableViewController {
             //点击事件回调
         }
         
-    
-//        setLeftButtonItem(image: UIImage(named: "nav_icon_back_black")) {[weak self] (btn) in
-//            //点击事件回调
-//            self?.navigationController?.popViewController(animated: true)
+//        setLeftButtonItem(image: UIImage(named: "nav_icon_back_black")) { (btn) in
+//            
 //        }
-//        
-        
+    
+        setLeftButtonItem(image: UIImage(named: "nav_icon_back_black")) {[weak self] (btn) in
+            //点击事件回调
+            self?.navigationController?.popViewController(animated: true)
+        }
+
         if #available(iOS 11.0, *) {
             self.tableView.contentInsetAdjustmentBehavior = .never
         } else {

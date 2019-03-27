@@ -30,6 +30,7 @@
 		CE67CC8421D5BECA00311BD2 /* UIViewController+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7B21D5BECA00311BD2 /* UIViewController+TopViewController.swift */; };
 		CE67CC8521D5BECA00311BD2 /* UIViewController+NavigationBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC7C21D5BECA00311BD2 /* UIViewController+NavigationBarItem.swift */; };
 		CE67CC8921D5D24500311BD2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67CC8821D5D24500311BD2 /* TableViewController.swift */; };
+		CE7FB90321F84D360020F5A2 /* Timer+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7FB90221F84D360020F5A2 /* Timer+Block.swift */; };
 		CE99647821F59B1F0093BC92 /* UIView+Responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99647721F59B1F0093BC92 /* UIView+Responder.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		CE67CC7B21D5BECA00311BD2 /* UIViewController+TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopViewController.swift"; sourceTree = "<group>"; };
 		CE67CC7C21D5BECA00311BD2 /* UIViewController+NavigationBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationBarItem.swift"; sourceTree = "<group>"; };
 		CE67CC8821D5D24500311BD2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CE7FB90221F84D360020F5A2 /* Timer+Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer+Block.swift"; sourceTree = "<group>"; };
 		CE99647721F59B1F0093BC92 /* UIView+Responder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Responder.swift"; sourceTree = "<group>"; };
 		DC923F55557A212D296B0BB8 /* Pods-CoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDemo/Pods-CoreDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,6 +203,7 @@
 				CE20413221F1DDE0000DEBBD /* UIColor+HEX.swift */,
 				CE20413421F55E70000DEBBD /* Date+Extension.swift */,
 				CE99647721F59B1F0093BC92 /* UIView+Responder.swift */,
+				CE7FB90221F84D360020F5A2 /* Timer+Block.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				CE67CC7E21D5BECA00311BD2 /* UIColor+Extension.swift in Sources */,
 				CE20413321F1DDE0000DEBBD /* UIColor+HEX.swift in Sources */,
 				CE67CC8021D5BECA00311BD2 /* UIDevice+IsPhoneXAbove.swift in Sources */,
+				CE7FB90321F84D360020F5A2 /* Timer+Block.swift in Sources */,
 				CE99647821F59B1F0093BC92 /* UIView+Responder.swift in Sources */,
 				CE67CC8921D5D24500311BD2 /* TableViewController.swift in Sources */,
 				CE12E45721E43DC400A22061 /* DispatchSourceTimerVC.swift in Sources */,

@@ -150,8 +150,8 @@ extension UIViewController {
     ///   - actionBlock: 点击回调
     /// - Returns: 左边按钮
     @discardableResult public func setLeftButtonItem(image: UIImage?, actionBlock: ((UIButton) -> Void)?) -> UIButton {
-        let leftBtn = buttomItem(frame: CGRect(x: 0, y: 12, width: 15, height: 20), title: nil, image: image)
-        leftBtn.imageEdgeInsets = UIEdgeInsets(top: 0, left: -8, bottom: 0, right: 0)
+        let leftBtn = buttomItem(frame: CGRect(x: 0, y: 12, width: 20, height: 20), title: nil, image: image)
+        leftBtn.imageEdgeInsets = UIEdgeInsets(top: 0, left: -15, bottom: 0, right: 0)
         leftBtn.press { (btn) in
             actionBlock?(btn)
         }
